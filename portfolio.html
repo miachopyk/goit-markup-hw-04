@@ -23,14 +23,24 @@
         </ul>
       </nav>
       <ul class="address-nav">
-        <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a>
+        <li class="address-link">
+          <a href="mailto:info@devstudio.com" class="address-link">
+            <svg class="address-icon" width="16" height="12">
+            <use href="./images/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a>
+          </li>
+        <li class="address-link"><a href="tel:+380961111111" class="address-link">
+            <svg class="address-icon" width="10" height="16">
+            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+          +38 096 111 11 11</a></li>
       </ul>
     </div>
   </header>
     <section class="portfolio">
       <div class="container">
-        <h1 class="heading projects">Наші проекти</h1>
+        <h1 class="visually-hidden">Наші проекти</h1>
         <ul class="portfolio-filter">
             <li class="portfolio-element"><button type="button" class="filter-button">Усі</button></li>
             <li class="portfolio-element"><button type="button" class="filter-button">Веб-сайти</button></li>
@@ -43,78 +53,116 @@
                 <a href=""> <img src="./images/portfolio-1.jpeg" width="370" alt="Веб-сайт">
                     <div class="works-border">
                       <h2 class="heading works">Технокряк</h2>
-                      <p class="text works">Веб-сайт</p></a>
+                      <p class="text works">Веб-сайт</p>
                     </div> 
+                </a>
             </li>
             <li class="works-list">
               <a href="">  <img src="./images/portfolio-2.jpeg" width="370" alt="Дизайн постера">
                 <div class="works-border">
                   <h2 class="heading works">Постер New Orlean vs Golden Star</h2>
-                  <p class="text works">Дизайн</p></a>
+                  <p class="text works">Дизайн</p>
                 </div> 
+              </a>
             </li>
             <li class="works-list">
                 <a href=""><img src="./images/portfolio-3.jpeg" width="370" alt="Додаток для ресторану">
                     <div class="works-border">
                       <h2 class="heading works">Ресторан Seafood</h2>
-                      <p class="text works">Додаток</p></a>
-                    </div> 
+                      <p class="text works">Додаток</p>
+                    </div>
+                  </a> 
             </li>
             <li class="works-list">
                 <a href=""><img src="./images/portfolio-4.jpeg" width="370" alt="Проєкт Прайм">
                     <div class="works-border">
                       <h2 class="heading works">Проєкт Prime</h2>
-                      <p class="text works">Маркетинг</p></a>
+                      <p class="text works">Маркетинг</p>
                     </div> 
+                </a>
             </li>
             <li class="works-list">
                 <a href=""> <img src="./images/portfolio-5.jpeg" width="370" alt="Додаток Боксез">
                     <div class="works-border">
                       <h2 class="heading works">Проєкт Boxes</h2>
-                      <p class="text works">Додаток</p></a>
+                      <p class="text works">Додаток</p>
                     </div> 
+                </a>
             </li>
             <li class="works-list">
                 <a href=""><img src="./images/portfolio-6.jpeg" width="370" alt="Веб-сайт">
                     <div class="works-border">
                       <h2 class="heading works">Inspiration has no Borders</h2>
-                      <p class="text works">Веб-сайт</p></a>
+                      <p class="text works">Веб-сайт</p>
                     </div> 
+                </a>
             </li>
             <li class="works-list">
                 <a href=""><img src="./images/portfolio-7.jpeg" width="370" alt="Дизайн журналу">
                     <div class="works-border">
                       <h2 class="heading works">Видання Limited Edition</h2>
-                      <p class="text works">Дизайн</p></a>
+                      <p class="text works">Дизайн</p>
                     </div> 
+                </a>
             </li>
             <li class="works-list">
                <a href=""> <img src="./images/portfolio-8.jpeg" width="370" alt="Маркетинг проєкт">
                 <div class="works-border">
                   <h2 class="heading works">Проєкт LAB</h2>
-                  <p class="text works">Маркетинг</p></a>
+                  <p class="text works">Маркетинг</p>
                 </div> 
+              </a>
             </li>
             <li class="works-list">
                <a href=""> <img src="./images/portfolio-9.jpeg" width="370" alt="Додаток для бізнесу">
                 <div class="works-border">
                   <h2 class="heading works">Growing Business</h2>
-                  <p class="text works">Додаток</p></a>
-                </div> 
+                  <p class="text works">Додаток</p>
+                </div>
+              </a> 
             </li>
         </ul>   
       </div> 
     </section>
     <footer class="footer">
-      <div class="container">
-        <a href="" class="logo dark">Web<span class="logo-option">Studio</span></a>
-        <address class="footer-address">
-          <ul>
-            <li class="footer-details"><a href="https://goo.gl/maps/xE7LxwzbenVqKgYw7" class="address">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li class="footer-details"><a href="mailto:info@devstudio.com" class="address-details">info@devstudio.com</a></li>
-            <li class="footer-details"><a href="tel:+380961111111" class="address-details">+38 096 111 11 11</a></li>
-          </ul>
-        </address>
+      <div class="container address-join">
+        <div class="footer-info">
+          <a href="" class="logo dark">Web<span class="logo-option">Studio</span></a>
+          <address class="footer-address">
+            <ul>
+              <li class="footer-details"><a href="https://goo.gl/maps/xE7LxwzbenVqKgYw7" class="address">м. Київ, пр-т Лесі Українки, 26</a></li>
+              <li class="footer-details"><a href="mailto:info@devstudio.com" class="address-details">info@devstudio.com</a></li>
+              <li class="footer-details"><a href="tel:+380961111111" class="address-details">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="join">
+          <h3 class="heading-join">
+            приєднуйтесь
+          </h3>
+          <div class="join-links">
+            <a href="https://www.instagram.com/" class="join-social">
+              <svg class="team-button">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a href="https://twitter.com/" class="join-social">
+              <svg class="join-button">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/" class="join-social">
+              <svg class="join-button">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/" class="join-social">
+              <svg class="join-button">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
 </body>
