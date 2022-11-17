@@ -227,8 +227,12 @@ h6 {
   width: 270px;
 }
 .features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
 
   background-color: var(--additional-grey);
   border-radius: 4px;
@@ -295,9 +299,13 @@ h6 {
   margin-right: 32px;
 }
 .team-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 44px;
   height: 44px;
-  padding: 12px;
+
   border-radius: 50%;
   color: var(--social-links);
 }
@@ -325,10 +333,11 @@ h6 {
   margin-right: 30px;
 }
 .clients-link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid var(--social-links);
   border-radius: 4px;
   color: var(--social-links);
@@ -396,9 +405,13 @@ h6 {
   align-items: center;
 }
 .join-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 44px;
   height: 44px;
-  padding: 12px;
+
   border-radius: 50%;
   color: var(--secondary-accent);
   background-color: rgba(255, 255, 255, 0.1);
